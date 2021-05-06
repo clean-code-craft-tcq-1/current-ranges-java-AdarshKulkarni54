@@ -28,6 +28,7 @@ public class RangeListTest
     rangeList.addAllRanges(currentSampleList);
     assertFalse(rangeList.getAllRanges().isEmpty());
     rangeList.detectRange();
+    rangeList.displayRangeReadings();
     assertFalse(rangeList.getDetectedRange().isEmpty());
   }
 }

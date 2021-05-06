@@ -43,7 +43,6 @@ public class RangeList
     }
     ranges.add(new Range(sortedList.get(start), sortedList.get(sortedList.size() - 1), readings));
     this.detectedRange = ranges;
-    displayRangeReadings();
   }
 
   public List<Range> getDetectedRange()
