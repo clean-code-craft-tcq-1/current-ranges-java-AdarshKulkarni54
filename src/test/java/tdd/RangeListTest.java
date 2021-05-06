@@ -9,6 +9,12 @@ import java.util.List;
 
 import org.junit.Test;
 
+/**
+ * Test class to test the functionality of the class {@link RangeList}
+ * 
+ * @author RDV1KOR
+ *
+ */
 public class RangeListTest
 {
   @Test

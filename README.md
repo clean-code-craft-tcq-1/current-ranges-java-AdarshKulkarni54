@@ -52,5 +52,5 @@ Adapt/adopt/extend the `yml` files from one of your workflow folders.
 
 Implement one failing test and at least one passing test:
 
-- Name of a **passing** test - listIsEmptyThenTrue
-- Name of a **failing** test - listIsNotEmptyThenDetectReadings
+- Name of a **passing** test -- listIsEmptyThenTrue
+- Name of a **failing** test -- listIsNotEmptyThenDetectReadings
