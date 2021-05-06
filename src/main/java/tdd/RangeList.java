@@ -16,6 +16,7 @@ public class RangeList
 
   public List<Integer> getAllRanges()
   {
+    Collections.sort(this.currentSampleList);
     return this.currentSampleList;
   }
 
@@ -28,8 +29,7 @@ public class RangeList
   {
     int start = 0;
     int readings = 0;
-    List<Integer> sortedList = this.currentSampleList;
-    Collections.sort(sortedList);
+    List<Integer> sortedList = getAllRanges();
     List<Range> ranges = new ArrayList<>();
     for (int i = 1; i < sortedList.size(); i++)
     {
